@@ -1,5 +1,5 @@
 
-
+import Headers from '../../dashboard/src/header/Header'
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <h1 class="text-3xl font-bold underline">
         Hello world!
       </h1>
+      <Headers/>
     </div>
   );
 }
